@@ -1,3 +1,11 @@
 # narrowtomato.github.io
 
-* [Initial Kali Hardening](./Guides/hardening_kali.md)
+## Guides
+
+* [Initial Kali Hardening](./guides/hardening_kali.md)
+
+## Writeups
+
+### TryHackMe
+
+* [Dogcat](./writeups/tryhackme/dogcat.md)
