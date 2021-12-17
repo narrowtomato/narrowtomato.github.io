@@ -9,3 +9,4 @@
 ### TryHackMe
 
 * [Dogcat](./writeups/tryhackme/dogcat.md)
+* [Res](./writeups/tryhackme/res.md)

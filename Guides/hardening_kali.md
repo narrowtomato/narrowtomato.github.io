@@ -1,3 +1,5 @@
+[Home](../index.md)
+
 # Initial Kali Hardening
 
 Perform basic security steps before using a new image (images found at https://www.kali.org/get-kali/).

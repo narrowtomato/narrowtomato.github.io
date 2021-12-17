@@ -1,3 +1,5 @@
+[Home](../../index.md)
+
 # TryHackMe: Dogcat
 
 https://tryhackme.com/room/dogcat
