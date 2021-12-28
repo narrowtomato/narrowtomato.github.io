@@ -11,3 +11,4 @@
 * [Dogcat](./writeups/tryhackme/dogcat.md)
 * [Res](./writeups/tryhackme/res.md)
 * [Nax](./writeups/tryhackme/nax.md)
+* [The Marketplace](./writeups/tryhackme/marketplace.md)
