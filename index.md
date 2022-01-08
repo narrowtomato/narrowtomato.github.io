@@ -3,6 +3,7 @@
 ## Guides
 
 * [Initial Kali Hardening](./guides/hardening_kali.md)
+* [SSH Tunneling By Use Case](./guides/ssh_tunneling.md)
 
 ## Writeups
 
@@ -12,3 +13,4 @@
 * [Res](./writeups/tryhackme/res.md)
 * [Nax](./writeups/tryhackme/nax.md)
 * [The Marketplace](./writeups/tryhackme/marketplace.md)
+* [Wreath Network](./writeups/tryhackme/wreath.md)
