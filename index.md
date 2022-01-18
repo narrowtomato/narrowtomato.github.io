@@ -1,5 +1,7 @@
 # narrowtomato.github.io
 
+[Methodology](./methodology.md)
+
 ## Guides
 
 * [Initial Kali Hardening](./guides/hardening_kali.md)
@@ -14,3 +16,4 @@
 * [Nax](./writeups/tryhackme/nax.md)
 * [The Marketplace](./writeups/tryhackme/marketplace.md)
 * [Wreath Network](./writeups/tryhackme/wreath.md)
+* [Binex](./writeups/tryhackme/binex.md)
