@@ -17,3 +17,4 @@
 * [The Marketplace](./writeups/tryhackme/marketplace.md)
 * [Wreath Network](./writeups/tryhackme/wreath.md)
 * [Binex](./writeups/tryhackme/binex.md)
+* [Wonderland](./writeups/tryhackme/wonderland.md)
