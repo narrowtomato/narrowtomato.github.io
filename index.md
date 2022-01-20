@@ -1,11 +1,14 @@
 # narrowtomato.github.io
 
-[Methodology](./methodology.md)
-
-## Guides
+## Formal Guides
 
 * [Initial Kali Hardening](./guides/hardening_kali.md)
 * [SSH Tunneling By Use Case](./guides/ssh_tunneling.md)
+
+## Notes/Cheatsheets
+
+* [Methodology](./methodology.md)
+* [Reverse Shells](./revshells.md)
 
 ## Writeups
 
@@ -18,3 +21,4 @@
 * [Wreath Network](./writeups/tryhackme/wreath.md)
 * [Binex](./writeups/tryhackme/binex.md)
 * [Wonderland](./writeups/tryhackme/wonderland.md)
+* [Looking Glass](./writeups/tryhackme/lookingglass.md)
