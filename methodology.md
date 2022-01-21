@@ -35,6 +35,13 @@ Wappalyzer Extension to identify versions - check each version for known vulnera
 
 Look for specific tools to specialize in CMS (for example `wpscan` for Wordpress)
 
+Use BurpSuite to intercept traffic to see where things are actually coming from.  This may reveal directories/files you couldn't see before.
+
+---
+## Suspicious Image
+
+`exiftool`, `strings`, `steghide`
+
 ---
 ## Privilege Escalation - Linux
 
@@ -52,6 +59,8 @@ If possible - run LinPEAS or other
 (`cat` what's there)
 
 `getcap -r / 2>/dev/null`
+
+`sudo -V`, if less than 1.8.28, `sudo -u#-1 COMMAND`, where COMMAND is something you have permissions to run as another user but not root.
 
 https://gtfobins.github.io
 

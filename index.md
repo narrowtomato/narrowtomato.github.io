@@ -22,3 +22,4 @@
 * [Binex](./writeups/tryhackme/binex.md)
 * [Wonderland](./writeups/tryhackme/wonderland.md)
 * [Looking Glass](./writeups/tryhackme/lookingglass.md)
+* [Year of the Rabbit](./writeups/tryhackme/yotrabbit.md)
