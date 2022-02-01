@@ -38,6 +38,12 @@ Look for specific tools to specialize in CMS (for example `wpscan` for Wordpress
 Use BurpSuite to intercept traffic to see where things are actually coming from.  This may reveal directories/files you couldn't see before.
 
 ---
+
+## SMB
+
+`smbclient -L IP -N`  checks for shares, without auth
+
+---
 ## Suspicious Image
 
 `exiftool`, `strings`, `steghide`
@@ -60,7 +66,15 @@ If possible - run LinPEAS or other
 
 `getcap -r / 2>/dev/null`
 
+`ss -tl` shows what's listening internally
+
+`ps aux`, look for interesting processes
+
 `sudo -V`, if less than 1.8.28, `sudo -u#-1 COMMAND`, where COMMAND is something you have permissions to run as another user but not root.
+
+`groups`, if in sudo group, use pkexec (see road.md)
+
+Am I in a docker container?  Check `/proc/self/cgroup`
 
 https://gtfobins.github.io
 

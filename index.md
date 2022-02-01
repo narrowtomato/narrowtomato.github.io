@@ -23,3 +23,5 @@
 * [Wonderland](./writeups/tryhackme/wonderland.md)
 * [Looking Glass](./writeups/tryhackme/lookingglass.md)
 * [Year of the Rabbit](./writeups/tryhackme/yotrabbit.md)
+* [Lumberjack Turtle](./writeups/tryhackme/lumberjackturtle.md)
+* [Road](./writeups/tryhackme/road.md)
