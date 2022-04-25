@@ -25,3 +25,15 @@
 * [Year of the Rabbit](./writeups/tryhackme/yotrabbit.md)
 * [Lumberjack Turtle](./writeups/tryhackme/lumberjackturtle.md)
 * [Road](./writeups/tryhackme/road.md)
+
+### Underthewire
+
+* [Century](./writeups/underthewire/century.md)
+* [Cyborg](./writeups/underthewire/cyborg.md)
+* [Groot](./writeups/underthewire/groot.md)
+* [Oracle](./writeups/underthewire/oracle.md)
+* [Trebek](./writeups/underthewire/trebek.md)
+
+## Other Articles
+
+* [Getting an Entry-Level IT Job](./articles/entry_it.md)
