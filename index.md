@@ -4,6 +4,7 @@
 
 * [Initial Kali Hardening](./guides/hardening_kali.md)
 * [SSH Tunneling By Use Case](./guides/ssh_tunneling.md)
+* [Grabbing NetNTLMv2 With Responder](./guides/responder_ntlm.md)
 
 ## Notes/Cheatsheets
 

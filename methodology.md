@@ -14,6 +14,8 @@ REMEMBER: If you find something, mess with it.  Poke at it.  Connect to the serv
 
 Nmap - Identify all open ports.
 
+`sudo nmap -v -p- --min-rate 5000 -sV -sC <IP>`
+
 First `-sS` on all ports, then `-sV` and `-sC` on open ports.
 
 1. Check versions of all services for known vulnerabilities.
@@ -38,10 +40,55 @@ Look for specific tools to specialize in CMS (for example `wpscan` for Wordpress
 Use BurpSuite to intercept traffic to see where things are actually coming from.  This may reveal directories/files you couldn't see before.
 
 ---
+## Login Forms - SQL Injection
 
+`admin'#`   (comments out the rest of the code)
+
+`' or 1=1--`
+
+---
 ## SMB
 
 `smbclient -L IP -N`  checks for shares, without auth
+
+`smbclient //IP/SHARE -N` logs in, without auth
+
+---
+## RDP
+
+```
+nmap --script "rdp-enum-encryption or rdp-vuln-ms12-020 or rdp-ntlm-info" -p 3389 -T4 <IP>
+```
+
+Log in without auth: `xfreerdp /v:<IP> /cert:ignore /u:Administrator`
+
+
+---
+## Databases
+
+### Mysql
+
+Use `mysql` to log in, 
+
+
+### Redis 
+
+https://book.hacktricks.xyz/network-services-pentesting/6379-pentesting-redis
+
+Usually port 6379
+
+`nc -vn 10.10.10.10 6379`
+
+`info`
+
+look for `# Keyspace`, this will show databases
+
+`SELECT 0` (where 0 is the database number)
+
+`KEYS *` (lists keys)
+
+`GET <KEY>`
+
 
 ---
 ## Suspicious Image
