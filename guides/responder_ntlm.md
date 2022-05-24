@@ -35,7 +35,7 @@ With Responder, we can start a server.  This will respond to SMB requests and sh
 └─$ sudo responder -I tun0
 ```
 
-Next, we have to find a way to initiate contact with this server.  There are a number of ways this can happen, many examples are shown at https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#lfi
+Next, we have to find a way to initiate contact with this server.  There are a number of ways this can happen, many examples are shown at [Hacktricks](https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds)
 
 Below is an example of using File Inclusion via the PHP `include()` function.
 
